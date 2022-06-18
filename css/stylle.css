@@ -14,7 +14,7 @@ body {
 }
 
 header {
-  background-color: #48c5ce;
+  background-color: #cd1c1c;
   text-align: center;
   color: white;
   padding: 10px;
@@ -33,7 +33,7 @@ section {
 
 .formContainer {
   max-width: 230px;
-  background-color: #ffffffbb;
+  background-color: #a7a7a7;
   padding: 20px;
   float: right;
 }
@@ -57,7 +57,17 @@ select {
 
 input[type="submit"] {
   color: white;
-  background-color: #48c5ce;
+  background-color: #cd1c1c;
+  font-size: 16px;
+}
+
+.botao:hover {
+  background-color: rgb(255, 255, 255);
+  color: #cd1c1c;
+}
+
+.botao {
+  border-radius: 8px;
 }
 
 select {
